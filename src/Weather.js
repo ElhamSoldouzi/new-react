@@ -64,6 +64,13 @@ export default function Weather() {
             </>
           )}
         </div>
+        <footer>
+          This project was codded by Elham Soldouzi , and is{" "}
+          <a href="https://github.com/ElhamSoldouzi/new-react">
+            open-sourced on GitHub
+          </a>{" "}
+          and <a href="https://new-react-rouge.vercel.app/">hosted on Vercel</a>{" "}
+        </footer>
       </div>
     </div>
   );
