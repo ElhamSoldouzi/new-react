@@ -1,0 +1,89 @@
+/* 🌤️ weather.css */
+
+/* تنظیمات کلی کل صفحه */
+.app {
+  background: linear-gradient(to bottom right, #a5cff9, #bab6ff);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  padding: 30px 40px;
+  width: 350px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.container:hover {
+  transform: scale(1.02);
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="search"] {
+  padding: 10px 14px;
+  border: 2px solid #74b9ff;
+  border-radius: 8px;
+  width: 65%;
+  outline: none;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+input[type="search"]:focus {
+  border-color: #0984e3;
+}
+
+input[type="submit"] {
+  background-color: #0984e3;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  margin-left: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #74b9ff;
+}
+
+/* اطلاعات آب‌وهوا */
+.weather h2 {
+  color: #2d3436;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.weather ul {
+  list-style: none;
+  padding: 0;
+  color: #2d3436;
+  font-size: 15px;
+}
+
+.weather li {
+  margin: 6px 0;
+}
+
+.weather img {
+  width: 80px;
+  height: 80px;
+}
+
+.icon {
+  display: block;
+  max-width: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
